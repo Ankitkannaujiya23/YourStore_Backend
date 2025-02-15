@@ -1,0 +1,87 @@
+import jwt from "jsonwebtoken";
+import { generateHashedPass } from "../utils/utilFunctions.js";
+import bcryptjs from "bcryptjs";
+import { validationResult } from "express-validator";
+
+const userController = {
+  signup: async (req, res) => {
+    const { name, email, password } = req.body;
+    const err = validationResult(req);
+    if (!err.isEmpty()) {
+      return res.status(400).json({ statusCode: 400, message: err.array() });
+    }
+
+    try {
+      const conn = req.db;
+      //check if user already exist
+      const existingUser = await conn.execute(
+        `select * from users where email= ${email}`
+      );
+      if (existingUser.length > 0) {
+        return res
+          .status(400)
+          .json({ statusCode: 400, message: "User already exist!!" });
+      }
+      const hashPass = generateHashedPass(password);
+
+      await conn.execute(
+        `insert into users (name,email,password) values(?,?,?)`,
+        [name, email, hashPass]
+      );
+
+      return res
+        .status(201)
+        .json({ statusCode: 201, message: "User registered successfully" });
+    } catch (error) {
+      console.log({ error });
+
+      return res
+        .status(500)
+        .json({ statusCode: 500, message: "Server error!!" });
+    }
+  },
+
+  login: async (req, res) => {
+    const { email, password } = req.body;
+    const err = validationResult(req);
+    if (!err.isEmpty()) {
+      return res.status(400).json({ statusCode: 400, message: err.array() });
+    }
+    try {
+      const conn = await req.db;
+      const users = await conn.execute("select * from users where email =?", [
+        email,
+      ]);
+      if (users.length === 0) {
+        return res
+          .status(400)
+          .json({ statusCode: 400, message: "Invalid Credential!!" });
+      }
+      const user = users[0];
+
+      //check password ismatch or not with bcryptjs.verify method
+      const isPassMatch = await bcryptjs.compare(password, user.password);
+      if (!isPassMatch) {
+        return res
+          .status(500)
+          .json({ statusCode: 400, message: "Invalid Credential!!" });
+      }
+
+      const token = jwt.sign(
+        { id: user.id, role: user.role },
+        process.env.JWT_SECRET_KEY,
+        { expiresIn: "1h" }
+      );
+
+      return res
+        .status(200)
+        .json({ statusCode: 200, message: "Login Succesfully!", token });
+    } catch (error) {
+      return res
+        .status(500)
+        .json({ statusCode: 500, message: "Server error!!" });
+    }
+  },
+};
+
+export default userController;

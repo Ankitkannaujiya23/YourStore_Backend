@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\.c0865a4baf76602fcbcd8ace776eb4d378d5a4b5-audit.json",
+    "files": [
+        {
+            "date": 1739217920049,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-02-11-app.log",
+            "hash": "a53c70462706c58c7a4411a4f0367af1f92ea770470f18bdf9f90faa059fdd58"
+        },
+        {
+            "date": 1739385132247,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-02-13-app.log",
+            "hash": "93d123a4e41d5aa481f281dcd7cff8a21e89d56bfaf4a5eda99498eb69c8bae5"
+        }
+    ],
+    "hashType": "sha256"
+}
