@@ -24,12 +24,12 @@ const logger = createLogger({
     new DailyRotateFile({
       filename: path.join(__dirname, "../logs/%DATE%-app.log"),
       datePattern: "YYYY-MM-DD",
-      maxSize: "20m", //file sixe max 20mb
+      maxSize: "20m", //file size max 20mb
       maxFiles: "14d", // for 14 days
     }),
     //for error
     new DailyRotateFile({
-      filename: path.join(__dirname, "../logs%DATE%-error.log"),
+      filename: path.join(__dirname, "../logs/%DATE%-error.log"),
       datePattern: "YYYY-MM-DD",
       level: "error",
     }),
