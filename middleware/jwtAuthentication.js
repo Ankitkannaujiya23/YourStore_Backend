@@ -1,6 +1,7 @@
 import jwt from "jsonwebtoken";
 
 const jwtAuthentication = (req, res, next) => {
+  let token = req.headers["token"];
   if (
     req.path == "/" ||
     req.path == "/api/user/login" ||
@@ -8,7 +9,6 @@ const jwtAuthentication = (req, res, next) => {
   ) {
     next();
   } else {
-    const token = req.header["token"];
     if (!token) {
       return res.json({ statusCode: 401, message: "token is missing!!" });
     }
