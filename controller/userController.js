@@ -12,18 +12,17 @@ const userController = {
     }
 
     try {
-      const conn = req.db;
+      const conn =  req.db;
       //check if user already exist
-      const existingUser = await conn.execute(
-        `select * from users where email= ${email}`
+      const [existingUser] = await conn.execute(
+        `select * from users where email= ?`, [email]
       );
       if (existingUser.length > 0) {
         return res
           .status(400)
           .json({ statusCode: 400, message: "User already exist!!" });
       }
-      const hashPass = generateHashedPass(password);
-
+      const hashPass =await generateHashedPass(password);
       await conn.execute(
         `insert into users (name,email,password) values(?,?,?)`,
         [name, email, hashPass]
@@ -48,10 +47,11 @@ const userController = {
       return res.status(400).json({ statusCode: 400, message: err.array() });
     }
     try {
-      const conn = await req.db;
-      const users = await conn.execute("select * from users where email =?", [
-        email,
+      const conn = req.db;
+    const [users] = await conn.execute("select * from users where email = ? ", [
+        email
       ]);
+      console.log({users});
       if (users.length === 0) {
         return res
           .status(400)
