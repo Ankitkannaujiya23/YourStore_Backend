@@ -68,3 +68,9 @@
 2025-02-25T19:49:06.534Z [INFO]:API Request 
 2025-02-25T19:51:58.405Z [INFO]:::1 - - [25/Feb/2025:19:51:58 +0000] "POST /api/user/login HTTP/1.1" 500 45 "-" "PostmanRuntime/7.43.0" 
 2025-02-25T19:51:58.410Z [INFO]:API Request 
+2025-02-25T19:53:11.003Z [INFO]:::1 - - [25/Feb/2025:19:53:11 +0000] "POST /api/user/login HTTP/1.1" 200 216 "-" "PostmanRuntime/7.43.0" 
+2025-02-25T19:53:11.006Z [INFO]:API Request 
+2025-02-25T19:53:58.492Z [INFO]:::1 - - [25/Feb/2025:19:53:58 +0000] "GET /apiproducts HTTP/1.1" 404 150 "-" "PostmanRuntime/7.43.0" 
+2025-02-25T19:53:58.494Z [INFO]:API Request 
+2025-02-25T19:54:05.115Z [INFO]:::1 - - [25/Feb/2025:19:54:05 +0000] "GET /api/products HTTP/1.1" 200 71 "-" "PostmanRuntime/7.43.0" 
+2025-02-25T19:54:05.118Z [INFO]:API Request 
