@@ -18,9 +18,7 @@ const userController = {
         `select * from users where email= ?`, [email]
       );
       if (existingUser.length > 0) {
-        return res
-          .status(400)
-          .json({ statusCode: 400, message: "User already exist!!" });
+        return res.json({ statusCode: 400, message: "User already exist!!" });
       }
       const hashPass =await generateHashedPass(password);
       await conn.execute(
@@ -28,15 +26,11 @@ const userController = {
         [name, email, hashPass]
       );
 
-      return res
-        .status(201)
-        .json({ statusCode: 201, message: "User registered successfully" });
+      return res.json({ statusCode: 201, message: "User registered successfully" });
     } catch (error) {
       console.log({ error });
 
-      return res
-        .status(500)
-        .json({ statusCode: 500, message: "Server error!!" });
+      return res.json({ statusCode: 500, message: "Server error!!" });
     }
   },
 
@@ -53,18 +47,14 @@ const userController = {
       ]);
       console.log({users});
       if (users.length === 0) {
-        return res
-          .status(400)
-          .json({ statusCode: 400, message: "Invalid Credential!!" });
+        return res.json({ statusCode: 400, message: "Invalid Credential!!" });
       }
       const user = users[0];
 
       //check password ismatch or not with bcryptjs.verify method
       const isPassMatch = await bcryptjs.compare(password, user.password);
       if (!isPassMatch) {
-        return res
-          .status(500)
-          .json({ statusCode: 400, message: "Invalid Credential!!" });
+        return res.json({ statusCode: 400, message: "Invalid Credential!!" });
       }
 
       const token = jwt.sign(
@@ -73,13 +63,9 @@ const userController = {
         { expiresIn: "1h" }
       );
 
-      return res
-        .status(200)
-        .json({ statusCode: 200, message: "Login Succesfully!", token });
+      return res.json({ statusCode: 200, message: "Login Succesfully!", Data:{token, user:user.name, email:user.email} });
     } catch (error) {
-      return res
-        .status(500)
-        .json({ statusCode: 500, message: "Server error!!" });
+      return res.json({ statusCode: 500, message: "Server error!!" });
     }
   },
 };
