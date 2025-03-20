@@ -63,7 +63,7 @@ const userController = {
         { expiresIn: "1h" }
       );
 
-      return res.json({ statusCode: 200, message: "Login Succesfully!", Data:{token, user:user.name, email:user.email} });
+      return res.json({ statusCode: 200, message: "Login Succesfully!", Data:{token, user:user.name,email:user.email , role:user.role} });
     } catch (error) {
       return res.json({ statusCode: 500, message: "Server error!!" });
     }
