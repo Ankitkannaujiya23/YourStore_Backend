@@ -9,3 +9,4 @@ export const generateHashedPass = async (pass) => {
     return "";
   }
 };
+

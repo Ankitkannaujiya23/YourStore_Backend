@@ -68,6 +68,6 @@ const userController = {
       return res.json({ statusCode: 500, message: "Server error!!" });
     }
   },
-};
+};  
 
 export default userController;

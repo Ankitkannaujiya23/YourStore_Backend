@@ -1,0 +1,25 @@
+2025-04-01T18:32:47.865Z [INFO]:::1 - - [01/Apr/2025:18:32:47 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:32:47.897Z [INFO]:API Request 
+2025-04-01T18:32:56.561Z [INFO]:::1 - - [01/Apr/2025:18:32:56 +0000] "POST /api/user/login HTTP/1.1" 200 281 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:32:56.562Z [INFO]:API Request 
+2025-04-01T18:33:01.664Z [INFO]:::1 - - [01/Apr/2025:18:33:01 +0000] "GET /api/products HTTP/1.1" 200 84 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:33:01.668Z [INFO]:API Request 
+2025-04-01T18:38:48.454Z [INFO]:::1 - - [01/Apr/2025:18:38:48 +0000] "POST /api/products HTTP/1.1" 404 152 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:38:48.455Z [INFO]:API Request 
+2025-04-01T18:38:53.068Z [INFO]:::1 - - [01/Apr/2025:18:38:53 +0000] "POST /api/products HTTP/1.1" 404 152 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:38:53.087Z [INFO]:API Request 
+2025-04-01T18:54:07.284Z [INFO]:::1 - - [01/Apr/2025:18:54:07 +0000] "POST /api/product HTTP/1.1" 200 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:54:07.285Z [INFO]:API Request 
+2025-04-01T18:54:22.537Z [INFO]:::1 - - [01/Apr/2025:18:54:22 +0000] "POST /api/product HTTP/1.1" 200 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:54:22.538Z [INFO]:API Request 
+2025-04-01T18:54:25.392Z [INFO]:::1 - - [01/Apr/2025:18:54:25 +0000] "POST /api/product HTTP/1.1" 200 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:54:25.393Z [INFO]:API Request 
+2025-04-01T18:54:39.019Z [INFO]:::1 - - [01/Apr/2025:18:54:39 +0000] "POST /api/product HTTP/1.1" 200 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T18:54:39.020Z [INFO]:API Request 
+2025-04-01T19:13:25.363Z [INFO]:::1 - - [01/Apr/2025:19:13:25 +0000] "POST /api/product HTTP/1.1" 200 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T19:13:25.365Z [INFO]:API Request 
+2025-04-01T19:14:20.696Z [INFO]:::1 - - [01/Apr/2025:19:14:20 +0000] "GET /api/products HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T19:22:18.878Z [INFO]:::1 - - [01/Apr/2025:19:22:18 +0000] "GET /api/products HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T19:24:43.303Z [INFO]:::1 - - [01/Apr/2025:19:24:43 +0000] "POST /api/user/login HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T19:24:43.332Z [INFO]:::1 - - [01/Apr/2025:19:24:43 +0000] "POST /api/user/login HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-01T19:24:43.334Z [INFO]:::1 - - [01/Apr/2025:19:24:43 +0000] "POST /api/user/login HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
