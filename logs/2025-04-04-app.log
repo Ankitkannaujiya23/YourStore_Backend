@@ -30,3 +30,5 @@
 2025-04-03T19:40:36.379Z [INFO]:API Request 
 2025-04-03T19:41:21.456Z [INFO]:::1 - - [03/Apr/2025:19:41:21 +0000] "POST /api/product HTTP/1.1" 200 73 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
 2025-04-03T19:41:21.458Z [INFO]:API Request 
+2025-04-03T19:47:23.467Z [INFO]:::1 - - [03/Apr/2025:19:47:23 +0000] "POST /api/product HTTP/1.1" 200 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" 
+2025-04-03T19:47:23.472Z [INFO]:API Request 
