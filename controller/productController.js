@@ -35,7 +35,9 @@ const productController = {
         message: "Access Denied. Admins only.",
       });
     }
-    const { name, description, price, stock, category, image } = req.body;
+    const { name, description, price, stock, category } = req.body;
+    const image= req.files.map(img=> img.filename);
+
     try {
       const db = req.db;
       await db.execute("CALL sp_addProduct(?,?,?,?,?,?)", [
