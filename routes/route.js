@@ -8,6 +8,7 @@ import productController from "../controller/productController.js";
 import jwtAuthentication from "../middleware/jwtAuthentication.js";
 import verifyAdminHandler from "../middleware/verifyAdminHandler.js";
 import { uploadImageHandler } from "../middleware/uploadImageHandler.js";
+import categoryController from "../controller/categoryController.js";
 const router = express.Router();
 //users
 router.post("/user/signup", signupValidation, userController.signup);
@@ -37,4 +38,8 @@ router.put(
   productController.updateProduct
 );
 
+//category 
+
+router.get('/category', jwtAuthentication,verifyAdminHandler, categoryController.getCategories);
+router.post('/category', jwtAuthentication,verifyAdminHandler, categoryController.addCategory);
 export default router;

@@ -3,10 +3,12 @@ const productController = {
     try {
       const db = req.db;
       const [products] = await db.execute("CALL sp_getProducts()");
+      const productList= products[0].map(item=> {return {...item, image:JSON.parse(item.image)}});
+
       return res.json({
         statusCode: 200,
         message: "Products successfully fetched.",
-        data: products[0],
+        data: productList,
       });
     } catch (error) {
       return res.json({ statusCode: 500, message: error.message });
@@ -36,19 +38,20 @@ const productController = {
       });
     }
     const { name, description, price, stock, category } = req.body;
-    const image= req.files.map(img=> img.filename);
+    //const image= req.files.map(img=> img.filename);
+    const image= req.files.map(file=> `${req.protocol}://${req.get('host')}/uploads/${file.filename}`)
 
     try {
       const db = req.db;
-      await db.execute("CALL sp_addProduct(?,?,?,?,?,?)", [
+     const product= await db.execute("CALL sp_addProduct(?,?,?,?,?,?)", [
         name,
         description,
         price,
         category,
-        image,
+        JSON.stringify(image),
         stock,
       ]);
-
+      console.log({product});
       return res.json({
         statusCode: 201,
         message: "Product added successfully.",
