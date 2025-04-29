@@ -20,12 +20,28 @@ try {
 
     const {name}= req.body;
     const db= req.db;
-    const result = await db.execute('Call sp_addCateogry(?)',[name]);
+    const [result] = await db.execute('Call sp_addCateogry(?)',[name]);
     console.log({result});
-    
+    if(result && result[0][0].categoryId){
+        return res.json({
+            statusCode: 200,
+            message: 'Category created successfully',
+            data: { id: result[0][0].categoryId, name }
+          });
+    }
 } catch (error) {
     console.log({error});
     return res.json({statusCode:500, message:error.message})
+}
+},
+
+updateCategory:async(req,res)=>{
+try {
+    const db=req.db;
+    
+} catch (error) {
+    console.log({error});
+    return res.json({statusCode:500, message:error.message});
 }
 }
 
