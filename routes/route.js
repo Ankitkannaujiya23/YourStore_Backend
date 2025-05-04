@@ -42,5 +42,6 @@ router.put(
 router.get('/category', jwtAuthentication,verifyAdminHandler, categoryController.getCategories);
 router.post('/category', jwtAuthentication,verifyAdminHandler, categoryController.addCategory);
 router.put('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.updateCategory);
+router.get('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.getCategoryById);
 
 export default router;
