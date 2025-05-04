@@ -20,8 +20,7 @@ try {
 
     const {name}= req.body;
     const db= req.db;
-    const [result] = await db.execute('Call sp_addCateogry(?)',[name]);
-    console.log({result});
+    const [result] = await db.execute('Call sp_addCategory(?)',[name]);
     if(result && result[0][0].categoryId){
         return res.json({
             statusCode: 200,
@@ -34,16 +33,30 @@ try {
     return res.json({statusCode:500, message:error.message})
 }
 },
+getCategoryById:async(req,res)=>{
 
+    try {
+    const id=req.params.id;
+    const db=req.db;
+    const [result]= await db.execute('Call sp_getCategoryById(?)',[id]);
+    return res.json({statusCode:200, message:"Category Fetched", data:result[0]});
+
+} catch (error) {
+    console.log({error});
+        return res.json({statusCode:500, message:error.message});
+}
+},
 updateCategory:async(req,res)=>{
 try {
     const db=req.db;
+    const categoryId=req.params.id;
     
 } catch (error) {
     console.log({error});
     return res.json({statusCode:500, message:error.message});
 }
-}
+},
+
 
 }
 export default categoryController;
