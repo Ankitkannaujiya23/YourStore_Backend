@@ -15,3 +15,19 @@
 2025-05-04T19:06:01.060Z [INFO]:::1 - - [04/May/2025:19:06:01 +0000] "GET /api/category HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
 2025-05-04T19:06:01.061Z [INFO]:API Request 
 2025-05-04T19:07:08.850Z [INFO]:::1 - - [04/May/2025:19:07:08 +0000] "GET /api/category HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:07:21.792Z [INFO]:::ffff:127.0.0.1 - - [04/May/2025:19:07:21 +0000] "GET /api/category HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:07:21.796Z [INFO]:API Request 
+2025-05-04T19:07:30.903Z [INFO]:::1 - - [04/May/2025:19:07:30 +0000] "GET /api/category HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:07:30.906Z [INFO]:API Request 
+2025-05-04T19:08:03.096Z [INFO]:::1 - - [04/May/2025:19:08:03 +0000] "GET /api/category HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:08:03.098Z [INFO]:API Request 
+2025-05-04T19:08:16.787Z [INFO]:::1 - - [04/May/2025:19:08:16 +0000] "GET /api/category HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:08:16.788Z [INFO]:API Request 
+2025-05-04T19:08:25.154Z [INFO]:::1 - - [04/May/2025:19:08:25 +0000] "GET /api/category HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:08:25.156Z [INFO]:API Request 
+2025-05-04T19:09:05.033Z [INFO]:::1 - - [04/May/2025:19:09:05 +0000] "GET /api/category HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:09:05.035Z [INFO]:API Request 
+2025-05-04T19:09:17.351Z [INFO]:::1 - - [04/May/2025:19:09:17 +0000] "GET /api/category HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:09:17.355Z [INFO]:API Request 
+2025-05-04T19:09:21.175Z [INFO]:::1 - - [04/May/2025:19:09:21 +0000] "GET /api/category HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-04T19:09:21.184Z [INFO]:API Request 
