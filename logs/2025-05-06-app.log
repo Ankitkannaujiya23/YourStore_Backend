@@ -28,3 +28,11 @@
 2025-05-05T20:25:23.761Z [INFO]:API Request 
 2025-05-05T20:29:11.148Z [INFO]:::1 - - [05/May/2025:20:29:11 +0000] "POST /api/category HTTP/1.1" 200 107 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
 2025-05-05T20:29:11.155Z [INFO]:API Request 
+2025-05-05T20:31:21.988Z [INFO]:::1 - - [05/May/2025:20:31:21 +0000] "POST /api/category HTTP/1.1" 200 107 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-05T20:31:21.993Z [INFO]:API Request 
+2025-05-05T20:37:54.635Z [INFO]:::1 - - [05/May/2025:20:37:54 +0000] "POST /api/category HTTP/1.1" 200 93 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-05T20:37:54.639Z [INFO]:API Request 
+2025-05-05T20:39:51.213Z [INFO]:::1 - - [05/May/2025:20:39:51 +0000] "POST /api/category HTTP/1.1" 200 90 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-05T20:39:51.215Z [INFO]:API Request 
+2025-05-05T20:39:59.396Z [INFO]:::1 - - [05/May/2025:20:39:59 +0000] "GET /api/category HTTP/1.1" 200 273 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" 
+2025-05-05T20:39:59.398Z [INFO]:API Request 
