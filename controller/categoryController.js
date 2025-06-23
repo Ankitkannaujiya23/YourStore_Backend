@@ -68,6 +68,28 @@ const categoryController = {
             return res.json({ statusCode: 500, message: error.message });
         }
     },
+    deleteCategory: async (req, res) => {
+        try {
+            const id = req.params.id;
+            const db = req.db;
+            if (req.user.role !== 'admin') {
+                return res.json({ statusCode: 403, message: "Access Denied!!" });
+            }
+            const [isExist] = await db.execute(`select * from categories where id =?`, [id]);
+            if (isExist.length === 0) {
+                return res.json({ statusCode: 404, message: 'Category not found!!' });
+            }
+            const result = await db.execute('CALL sp_deleteCategory(?)', [id]);
+            console.log({ result });
+            return res.json({
+                statusCode: 200,
+                message: "Category deleted successfully.",
+            });
+        } catch (error) {
+            console.log({ error });
+            return res.json({ statusCode: 500, message: error?.message });
+        }
+    }
 
 
 }

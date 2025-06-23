@@ -13,6 +13,8 @@ const router = express.Router();
 //users
 router.post("/user/signup", signupValidation, userController.signup);
 router.post("/user/login", loginValidation, userController.login);
+router.post('/user/forgotPassword', userController.forgotPassword);
+router.post('/user/updatePassword', userController.updatePassword);
 
 //products
 router.get("/products", productController.getAllProducts);
@@ -39,9 +41,10 @@ router.put(
 );
 
 //category 
-router.get('/category', jwtAuthentication,verifyAdminHandler, categoryController.getCategories);
-router.post('/category', jwtAuthentication,verifyAdminHandler, categoryController.addCategory);
+router.get('/category', jwtAuthentication, verifyAdminHandler, categoryController.getCategories);
+router.post('/category', jwtAuthentication, verifyAdminHandler, categoryController.addCategory);
 router.put('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.updateCategory);
 router.get('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.getCategoryById);
+router.delete('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.deleteCategory);
 
 export default router;

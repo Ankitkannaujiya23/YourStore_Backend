@@ -6,29 +6,14 @@
     "auditLog": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\.c0865a4baf76602fcbcd8ace776eb4d378d5a4b5-audit.json",
     "files": [
         {
-            "date": 1745865731677,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-04-29-app.log",
-            "hash": "5bcf7bcb50bee6b7f9da2bf89200d699972331ca4ff99fc1f5d1509289a56d45"
+            "date": 1750701512570,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-06-23-app.log",
+            "hash": "821424d887fdf2db3b5af35a4b3f397de6253f30c1fcdec4294486ddaf719fda"
         },
         {
-            "date": 1745953052330,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-04-30-app.log",
-            "hash": "543becd64b23c3d567e1b3a1b9e8bf778f93c1d303647cd117438c898a651612"
-        },
-        {
-            "date": 1746301312849,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-05-04-app.log",
-            "hash": "df3727079a42c1b1d375b93bc6977f82c58c73acc8302474c2979e90f55cdb44"
-        },
-        {
-            "date": 1746385068456,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-05-05-app.log",
-            "hash": "c409fce5b2296c76a70c0648aeb3381be02c547ae3ec3dbd56950845ed136004"
-        },
-        {
-            "date": 1746472504382,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-05-06-app.log",
-            "hash": "736cbabb282971eea480ff9d9152ddf99f60cec53f6ece92e809e5d3a173a3fa"
+            "date": 1750703408359,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-06-24-app.log",
+            "hash": "0761d1fe159ea3b3981fd0eb7867b28803bedbb2937c65b88e26a68dfbfcd66d"
         }
     ],
     "hashType": "sha256"

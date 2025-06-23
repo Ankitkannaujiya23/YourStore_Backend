@@ -5,7 +5,9 @@ const jwtAuthentication = (req, res, next) => {
   if (
     req.path == "/" ||
     req.path == "/api/user/login" ||
-    req.path == "/api/user/signup"
+    req.path == "/api/user/signup" ||
+    req.path == '/api/user/forgotPassword' ||
+    req.path == '/api/user/updatePassword'
   ) {
     next();
   } else {
