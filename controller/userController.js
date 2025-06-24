@@ -4,6 +4,10 @@ import bcryptjs from "bcryptjs";
 import { validationResult } from "express-validator";
 import crypto from 'crypto';
 import nodemailer from 'nodemailer';
+import dotenv from "dotenv";
+
+const envFile = process.env.NODE_ENV;
+dotenv.config({ path: `.env.${envFile}` });
 
 const userController = {
   signup: async (req, res) => {
@@ -109,7 +113,7 @@ const userController = {
 
     } catch (error) {
       console.log({ error });
-      return res.json({ statusCode: 500, message: "Internal server error" });
+      return res.json({ statusCode: 500, message:error.message });
     }
   },
   updatePassword: async (req, res) => {
