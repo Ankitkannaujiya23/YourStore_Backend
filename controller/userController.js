@@ -113,7 +113,7 @@ const userController = {
 
     } catch (error) {
       console.log({ error });
-      return res.json({ statusCode: 500, message:error.message });
+      return res.json({ statusCode: 500, message: error.message });
     }
   },
   updatePassword: async (req, res) => {
