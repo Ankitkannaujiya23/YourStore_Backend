@@ -2,14 +2,17 @@ import jwt from "jsonwebtoken";
 
 const jwtAuthentication = (req, res, next) => {
   let token = req.headers["token"];
-  if (
-    req.path == "/" ||
-    req.path == "/api/user/login" ||
-    req.path == "/api/user/signup" ||
-    req.path == '/api/user/forgotPassword' ||
-    req.path == '/api/user/updatePassword'
-  ) {
-    next();
+  const isForResetPassword = req.path.includes('/api/user/forgotPassword' || '/api/user/forgotPassword');
+  const openRoutes = [
+    "/",
+    "/api/user/login",
+    "/api/user/signup",
+    "/api/user/forgotPassword",
+    "/api/user/resetPassword"
+  ];
+
+  if (openRoutes.some(route => req.path.startsWith(route))) {
+    return next();
   } else {
     if (!token) {
       return res.json({ statusCode: 401, message: "token is missing!!" });

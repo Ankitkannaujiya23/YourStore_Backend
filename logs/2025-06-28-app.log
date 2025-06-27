@@ -1,0 +1,10 @@
+2025-06-27T18:50:53.864Z [INFO]:::1 - - [27/Jun/2025:18:50:53 +0000] "POST /api/user/updatePassword?token=0b0fe23b3bbd4a850e73e0bc09fa3d12c374a2727f897e2643d2d63ac8e36e77 HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-06-27T18:50:53.883Z [INFO]:API Request 
+2025-06-27T18:52:00.369Z [INFO]:::1 - - [27/Jun/2025:18:52:00 +0000] "POST /api/user/updatePassword?token=0b0fe23b3bbd4a850e73e0bc09fa3d12c374a2727f897e2643d2d63ac8e36e77 HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-06-27T18:52:00.372Z [INFO]:API Request 
+2025-06-27T20:10:54.102Z [INFO]:::1 - - [27/Jun/2025:20:10:54 +0000] "POST /api/user/updatePassword/0b0fe23b3bbd4a850e73e0bc09fa3d12c374a2727f897e2643d2d63ac8e36e77 HTTP/1.1" 400 31 "-" "PostmanRuntime/7.44.1" 
+2025-06-27T20:10:54.107Z [INFO]:API Request 
+2025-06-27T20:37:04.528Z [INFO]:::1 - - [27/Jun/2025:20:37:04 +0000] "POST /api/user/forgotPassword HTTP/1.1" 200 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-27T20:37:04.539Z [INFO]:API Request 
+2025-06-27T20:41:23.513Z [INFO]:::1 - - [27/Jun/2025:20:41:23 +0000] "POST /api/user/updatePassword/62b3b4ee20dc452831b1f61d5722825f2dac2640b4b8cf71112cf1a1505abc96 HTTP/1.1" 200 52 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-27T20:41:23.517Z [INFO]:API Request 

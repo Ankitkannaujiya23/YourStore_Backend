@@ -14,7 +14,7 @@ const router = express.Router();
 router.post("/user/signup", signupValidation, userController.signup);
 router.post("/user/login", loginValidation, userController.login);
 router.post('/user/forgotPassword', userController.forgotPassword);
-router.post('/user/updatePassword', userController.updatePassword);
+router.post('/user/updatePassword/:token', userController.updatePassword);
 
 //products
 router.get("/products", productController.getAllProducts);

@@ -93,7 +93,7 @@ const userController = {
       await db.execute('UPDATE users SET resetToken=?, resetTokenExpiry=? where email=?', [resetToken, tokenExpiry, email]);
 
       // 3. Send email
-      const resetLink = `http://localhost:3000/reset-password/${resetToken}`;
+      const resetLink = `http://localhost:3000/reset-password?token=${resetToken}`;
       const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -140,8 +140,8 @@ const userController = {
 
       const hashedPass = await generateHashedPass(password);
 
-      await db.execute('update users set password =?, resetToken=null, tokenExpiry=null where id=?', [hashedPass, user.id]);
-      return res.json({ statusCode: 200, message: "Password reset successfully" });
+      await db.execute('update users set password =?, resetToken=null, resetTokenExpiry=null where id=?', [hashedPass, user.id]);
+      return res.json({ statusCode: 200, message: "Password Reset successfully" });
 
 
     } catch (error) {
