@@ -1,0 +1,28 @@
+2025-06-30T18:07:22.281Z [INFO]:::1 - - [30/Jun/2025:18:07:22 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:07:22.329Z [INFO]:API Request 
+2025-06-30T18:07:39.104Z [INFO]:::1 - - [30/Jun/2025:18:07:39 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:07:39.108Z [INFO]:API Request 
+2025-06-30T18:07:46.398Z [INFO]:::1 - - [30/Jun/2025:18:07:46 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:07:46.401Z [INFO]:API Request 
+2025-06-30T18:08:02.326Z [INFO]:::1 - - [30/Jun/2025:18:08:02 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:08:02.328Z [INFO]:API Request 
+2025-06-30T18:08:11.677Z [INFO]:::1 - - [30/Jun/2025:18:08:11 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:08:11.679Z [INFO]:API Request 
+2025-06-30T18:08:14.075Z [INFO]:::1 - - [30/Jun/2025:18:08:14 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:08:14.077Z [INFO]:API Request 
+2025-06-30T18:08:19.356Z [INFO]:::1 - - [30/Jun/2025:18:08:19 +0000] "POST /api/user/login HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:08:19.358Z [INFO]:API Request 
+2025-06-30T18:08:28.814Z [INFO]:::1 - - [30/Jun/2025:18:08:28 +0000] "POST /api/user/login HTTP/1.1" 200 304 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:08:28.817Z [INFO]:API Request 
+2025-06-30T18:08:28.913Z [INFO]:::1 - - [30/Jun/2025:18:08:28 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:08:28.916Z [INFO]:API Request 
+2025-06-30T18:09:10.048Z [INFO]:::1 - - [30/Jun/2025:18:09:10 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:09:10.051Z [INFO]:API Request 
+2025-06-30T18:10:19.575Z [INFO]:::1 - - [30/Jun/2025:18:10:19 +0000] "POST /api/user/login HTTP/1.1" 200 281 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:10:19.580Z [INFO]:API Request 
+2025-06-30T18:10:19.720Z [INFO]:::1 - - [30/Jun/2025:18:10:19 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:10:19.722Z [INFO]:API Request 
+2025-06-30T18:16:45.867Z [INFO]:::1 - - [30/Jun/2025:18:16:45 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:16:45.870Z [INFO]:API Request 
+2025-06-30T18:16:56.739Z [INFO]:::1 - - [30/Jun/2025:18:16:56 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" 
+2025-06-30T18:16:56.743Z [INFO]:API Request 
