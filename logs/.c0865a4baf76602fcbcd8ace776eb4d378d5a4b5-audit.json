@@ -6,16 +6,6 @@
     "auditLog": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\.c0865a4baf76602fcbcd8ace776eb4d378d5a4b5-audit.json",
     "files": [
         {
-            "date": 1750701512570,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-06-23-app.log",
-            "hash": "821424d887fdf2db3b5af35a4b3f397de6253f30c1fcdec4294486ddaf719fda"
-        },
-        {
-            "date": 1750703408359,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-06-24-app.log",
-            "hash": "0761d1fe159ea3b3981fd0eb7867b28803bedbb2937c65b88e26a68dfbfcd66d"
-        },
-        {
             "date": 1750789994506,
             "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-06-25-app.log",
             "hash": "8a969de45f00cdf8e4bff5933fb832f85e6255ff0d4232d3551092fb9352892f"
@@ -54,6 +44,11 @@
             "date": 1751396485595,
             "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-07-02-app.log",
             "hash": "25319e3a566b722057eaab1b6e4b4eb5121a2b7972bdc5a61845ae39fa793524"
+        },
+        {
+            "date": 1751915557288,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-07-08-app.log",
+            "hash": "d53f5b8dac873ff7840cec72fb53a1716c8514afc0b0e827f0733db797536aac"
         }
     ],
     "hashType": "sha256"

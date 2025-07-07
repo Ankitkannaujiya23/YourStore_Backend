@@ -36,10 +36,10 @@ app.use(responseLogHandler);
 app.use(async (req, res, next) => {
   try {
     const conn = await pool.getConnection();
-    req.db=conn;
+    req.db = conn;
     next();
 
-   // conn.release()
+    // conn.release()
   } catch (error) {
     console.error("Database connection error:", error);
     res.status(500).json({ message: "Database connection failed" });
