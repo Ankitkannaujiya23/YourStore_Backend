@@ -10,3 +10,4 @@ export const loginValidation = [
   body("email").isEmail().withMessage("Enter a valid email."),
   body("password").isLength({ min: 1 }).withMessage("Enter password"),
 ];
+

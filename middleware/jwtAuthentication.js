@@ -11,7 +11,7 @@ const jwtAuthentication = (req, res, next) => {
     "/api/user/resetPassword"
   ];
 
-  if (openRoutes.some(route => req.path.startsWith(route))) {
+  if (req.path === '/' || (openRoutes.some(route => route !== '/' && req.path.startsWith(route)))) {
     return next();
   } else {
     if (!token) {

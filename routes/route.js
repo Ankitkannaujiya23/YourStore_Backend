@@ -9,6 +9,8 @@ import jwtAuthentication from "../middleware/jwtAuthentication.js";
 import verifyAdminHandler from "../middleware/verifyAdminHandler.js";
 import { uploadImageHandler } from "../middleware/uploadImageHandler.js";
 import categoryController from "../controller/categoryController.js";
+import colorsController from "../controller/colorsController.js";
+
 const router = express.Router();
 //users
 router.post("/user/signup", signupValidation, userController.signup);
@@ -46,5 +48,8 @@ router.post('/category', jwtAuthentication, verifyAdminHandler, categoryControll
 router.put('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.updateCategory);
 router.get('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.getCategoryById);
 router.delete('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.deleteCategory);
+
+//colors
+router.get('/colors', jwtAuthentication, verifyAdminHandler, colorsController.getColors);
 
 export default router;
