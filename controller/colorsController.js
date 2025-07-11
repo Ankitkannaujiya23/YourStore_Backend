@@ -43,7 +43,12 @@ const colorsController = {
     updateColor: async (req, res) => {
         try {
             const db = req.db;
+            const { id } = req.params;
             const { name, hexCode } = req.body;
+
+            const [result] = await db.execute('Call sp_updateColor(?,?,?)', [id, name, hexCode]);
+
+            console.log({ result });
 
         } catch (error) {
             console.log({ error });
