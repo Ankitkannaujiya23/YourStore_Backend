@@ -31,7 +31,7 @@ const colorsController = {
             const { name, hexCode } = req.body;
             const [result] = await db.execute('Call sp_addColor(?,?)', [name, hexCode]);
             console.log({ result });
-            if (result.insertId) {
+            if (result.affectedRows) {
                 return res.json({ statusCode: 200, message: 'Color Addedd Successfully' });
             };
 

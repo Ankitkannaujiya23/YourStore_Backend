@@ -51,5 +51,8 @@ router.delete('/category/:id', jwtAuthentication, verifyAdminHandler, categoryCo
 
 //colors
 router.get('/colors', jwtAuthentication, verifyAdminHandler, colorsController.getColors);
+router.post('/color', jwtAuthentication,verifyAdminHandler, colorsController.addColor);
+router.put('/color/:id', jwtAuthentication,verifyAdminHandler, colorsController.updateColor);
+router.get('/color/:id', jwtAuthentication,verifyAdminHandler, colorsController.getColorById)
 
 export default router;
