@@ -18,7 +18,7 @@ const colorsController = {
             const db = req.db;
             const id = req.params.id;
             const [color] = await db.execute('Call sp_getColorById(?)', [id]);
-            console.log({ color });
+            return res.json({ statusCode: 200, response: color[0], message: "Color fetched successfully" })
         } catch (error) {
             console.log({ error });
             return res.json({ statusCode: 500, message: error.message });
@@ -32,7 +32,7 @@ const colorsController = {
             const [result] = await db.execute('Call sp_addColor(?,?)', [name, hexCode]);
             console.log({ result });
             if (result.affectedRows) {
-                return res.json({ statusCode: 200, message: 'Color Addedd Successfully' });
+                return res.json({ statusCode: 201, message: 'Color Addedd Successfully' });
             };
 
         } catch (error) {
@@ -48,7 +48,9 @@ const colorsController = {
 
             const [result] = await db.execute('Call sp_updateColor(?,?,?)', [id, name, hexCode]);
 
-            console.log({ result });
+            if (result.affectedRows) {
+                return res.json({ statusCode: 200, message: 'Color Updated Successfully!!' });
+            }
 
         } catch (error) {
             console.log({ error });
