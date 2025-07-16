@@ -10,6 +10,7 @@ import verifyAdminHandler from "../middleware/verifyAdminHandler.js";
 import { uploadImageHandler } from "../middleware/uploadImageHandler.js";
 import categoryController from "../controller/categoryController.js";
 import colorsController from "../controller/colorsController.js";
+import sizesController from "../controller/sizesController.js";
 
 const router = express.Router();
 //users
@@ -50,9 +51,13 @@ router.get('/category/:id', jwtAuthentication, verifyAdminHandler, categoryContr
 router.delete('/category/:id', jwtAuthentication, verifyAdminHandler, categoryController.deleteCategory);
 
 //colors
-router.get('/colors', jwtAuthentication, verifyAdminHandler, colorsController.getColors);
+router.get('/colors', jwtAuthentication, verifyAdminHandler, colorsController.getAllColors);
 router.post('/color', jwtAuthentication, verifyAdminHandler, colorsController.addColor);
 router.put('/color/:id', jwtAuthentication, verifyAdminHandler, colorsController.updateColor);
-router.get('/color/:id', jwtAuthentication, verifyAdminHandler, colorsController.getColorById)
+router.get('/color/:id', jwtAuthentication, verifyAdminHandler, colorsController.getColorById);
+
+//sizes
+router.get('/sizes', jwtAuthentication, verifyAdminHandler, sizesController.getAllSizes);
+router.post('/size', jwtAuthentication, verifyAdminHandler, sizesController.addSize);
 
 export default router;

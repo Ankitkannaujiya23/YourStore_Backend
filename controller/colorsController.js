@@ -1,7 +1,7 @@
 import { response } from "express";
 
 const colorsController = {
-    getColors: async (req, res) => {
+    getAllColors: async (req, res) => {
         try {
             const db = req.db;
             const [colors] = await db.execute('select * from colors');
