@@ -58,6 +58,8 @@ router.get('/color/:id', jwtAuthentication, verifyAdminHandler, colorsController
 
 //sizes
 router.get('/sizes', jwtAuthentication, verifyAdminHandler, sizesController.getAllSizes);
+router.get('/size/:id', jwtAuthentication, verifyAdminHandler, sizesController.getSizeById);
 router.post('/size', jwtAuthentication, verifyAdminHandler, sizesController.addSize);
+router.put('/size/:id', jwtAuthentication, verifyAdminHandler, sizesController.updateSize);
 
 export default router;
