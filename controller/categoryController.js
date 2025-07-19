@@ -49,8 +49,8 @@ const categoryController = {
     updateCategory: async (req, res) => {
         try {
             const db = req.db;
-            const categoryId = req.params.id;
-            const name = req.body;
+            const categoryId = parseInt(req.params.id);
+            const { name } = req.body;
             if (req.user.role !== 'admin') {
                 return res.json({ statusCode: 403, message: "Access Denied!!" })
             }
