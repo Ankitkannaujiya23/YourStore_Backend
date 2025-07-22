@@ -1,0 +1,2 @@
+2025-07-22T18:59:34.430Z [INFO]:::1 - - [22/Jul/2025:18:59:34 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-22T18:59:34.492Z [INFO]:API Request 
