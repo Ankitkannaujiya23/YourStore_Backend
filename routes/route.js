@@ -62,4 +62,7 @@ router.get('/size/:id', jwtAuthentication, verifyAdminHandler, sizesController.g
 router.post('/size', jwtAuthentication, verifyAdminHandler, sizesController.addSize);
 router.put('/size/:id', jwtAuthentication, verifyAdminHandler, sizesController.updateSize);
 
+//cart
+
+
 export default router;
