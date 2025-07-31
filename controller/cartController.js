@@ -3,6 +3,7 @@ import { response } from "express";
 const cartController = {
     syncCart: async (req, res) => {
         const { userId, cart } = req.body;
+        console.log({ userId, cart });
         const db = req.db;
         try {
             // 1. Fetch existing cart items from DB
