@@ -7,23 +7,9 @@ const cartController = {
         console.log({ userId, cart });
         const db = req.db;
         try {
-            // 1. Fetch existing cart items from DB
-            const [existingCart] = await db.execute('select * from cart_items where user_id=?', [userId]);
-            for (const guestItem of cart) {
-                const isCartExist = existingCart.find(item => item.product_id === guestItem.id);
-                if (isCartExist) {
-                    await db.execute('update cart_items set quantity = quantity + ? where user_id = ? and product_id=?', [guestItem.quantity, userId, guestItem.id]);
-                } else {
-                    await db.execute('insert into cart_items (user_id,product_id,quantity)values(?,?,?)', [userId, guestItem.id, guestItem.quantity]);
-                }
-            }
-            // 3. Return updated cart
-            const [finalCart] = await db.query(
-                'SELECT * FROM cart_items WHERE user_id = ?',
-                [userId]
-            );
-
-            return res.json({ statusCode: 200, message: "Cart Synced Successfully", response: finalCart });
+            const [finalCart] = await db.execute('CALL sp_syncCart(?,?)', [userId, JSON.stringify(cart)]);
+            const productList = finalCart[0]?.map((item) => { return { ...item, image: JSON.parse(item.image) } })
+            return res.json({ statusCode: 200, message: "Cart Synced Successfully", response: productList });
 
         } catch (error) {
             console.log({ error });
