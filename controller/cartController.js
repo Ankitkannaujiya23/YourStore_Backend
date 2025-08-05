@@ -29,10 +29,11 @@ const cartController = {
         }
     },
     updateCart: async (req, res) => {
-        const { userId, productId, quantity } = req.body;
+        const { productId, quantity } = req.body;
+        const userId = req.user.id;
         const db = req.db;
         try {
-            const [updatedCart] = db.execute("Call sp_updateCart(?,?,?)", [userId, productId, quantity]);
+            const [updatedCart] = await db.execute("Call sp_updateCart(?,?,?)", [userId, productId, quantity]);
             return res.json({ statusCode: 200, message: "Cart Updated Successfully", response: updatedCart[0] });
 
         } catch (error) {
@@ -42,7 +43,8 @@ const cartController = {
     },
 
     removeFromCart: async (req, res) => {
-        const { userId, productId } = req.body;
+        const { productId } = req.body;
+        const userId = req.user.id;
         const db = req.db;
         try {
             const [updatedCart] = await db.execute('Call sp_removeCartItem(?,?)', [userId, productId]);
