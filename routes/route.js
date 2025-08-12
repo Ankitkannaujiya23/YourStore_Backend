@@ -12,6 +12,7 @@ import categoryController from "../controller/categoryController.js";
 import colorsController from "../controller/colorsController.js";
 import sizesController from "../controller/sizesController.js";
 import cartController from "../controller/cartController.js";
+import addressController from "../controller/addressController.js";
 
 const router = express.Router();
 //users
@@ -68,5 +69,11 @@ router.post('/cart/add', jwtAuthentication, cartController.addToCart);
 router.put('/cart/update', jwtAuthentication, cartController.updateCart);
 router.post('/cart/sync', jwtAuthentication, cartController.syncCart);
 router.delete('/cart/remove', jwtAuthentication, cartController.removeFromCart);
+
+//address
+router.post('/address/add', jwtAuthentication, addressController.addAddress);
+router.put('/address/update',jwtAuthentication, addressController.updateAddress);
+router.delete('/address/:id', jwtAuthentication, addressController.deleteAddress);
+router.get('/address', jwtAuthentication, addressController.getAddress);
 
 export default router;

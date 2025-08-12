@@ -41,7 +41,6 @@ const cartController = {
             return res.json({ statusCode: 500, message: error.message });
         }
     },
-
     removeFromCart: async (req, res) => {
         const { productId } = req.body;
         const userId = req.user.id;
