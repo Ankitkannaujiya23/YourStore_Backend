@@ -4,9 +4,10 @@ const orderController = {
     createOrder: async (req, res) => {
 
         const userId = req.user.id;
+        const { addressId, paymentMethod } = req.body;
         const db = req.db;
         try {
-            const [orderDetail] = await db.execute('Call sp_createOrder(?)', [userId]);
+            const [orderDetail] = await db.execute('Call sp_createFinalOrder(?,?,?)', [userId, addressId, paymentMethod]);
             console.log({ orderDetail });
 
             return res.json({ statusCode: 200, message: "Order Placed Successfully!", response: orderDetail[0] });

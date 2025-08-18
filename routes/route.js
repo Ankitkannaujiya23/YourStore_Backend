@@ -13,6 +13,8 @@ import colorsController from "../controller/colorsController.js";
 import sizesController from "../controller/sizesController.js";
 import cartController from "../controller/cartController.js";
 import addressController from "../controller/addressController.js";
+import addressValidation from "../validationSchema/addressValidation.js";
+import orderController from "../controller/orderController.js";
 
 const router = express.Router();
 //users
@@ -71,9 +73,12 @@ router.post('/cart/sync', jwtAuthentication, cartController.syncCart);
 router.delete('/cart/remove', jwtAuthentication, cartController.removeFromCart);
 
 //address
-router.post('/address/add', jwtAuthentication, addressController.addAddress);
-router.put('/address/update',jwtAuthentication, addressController.updateAddress);
+router.post('/address/add', addressValidation, jwtAuthentication, addressController.addAddress);
+router.put('/address/update', jwtAuthentication, addressController.updateAddress);
 router.delete('/address/:id', jwtAuthentication, addressController.deleteAddress);
-router.get('/address', jwtAuthentication, addressController.getAddress);
+router.get('/address/getaddresslist', jwtAuthentication, addressController.getAddress);
+
+//order
+router.post('/order/create', jwtAuthentication, orderController.createOrder);
 
 export default router;

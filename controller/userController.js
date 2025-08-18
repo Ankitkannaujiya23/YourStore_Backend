@@ -14,7 +14,7 @@ const userController = {
     const { name, email, password } = req.body;
     const err = validationResult(req);
     if (!err.isEmpty()) {
-      return res.status(400).json({ statusCode: 400, message: err.array() });
+      return res.status(400).json({ statusCode: 400, message: "Bad Request", errors: err.array() });
     }
 
     try {
@@ -44,7 +44,7 @@ const userController = {
     const { email, password } = req.body;
     const err = validationResult(req);
     if (!err.isEmpty()) {
-      return res.status(400).json({ statusCode: 400, message: err.array() });
+      return res.status(400).json({ statusCode: 400, message: "Bad Request", errors: err.array() });
     }
     try {
       const conn = req.db;
