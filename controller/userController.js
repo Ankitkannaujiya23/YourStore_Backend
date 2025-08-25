@@ -148,6 +148,22 @@ const userController = {
       console.log({ error });
       return res.json({ statusCode: 500, message: "Internal server error" });
     }
+  },
+  getUserDetail: async (req, res) => {
+    try {
+      const userId = req.user.id;
+      const db = req.db;
+      const [rows] = await db.execute('Call sp_getUserDetail(?)', [userId]);
+      const userDetail = rows[0] || null;
+
+      return res.json({
+        statusCode: 200,
+        message: "User details fetched successfully!",
+        response: userDetail[0]
+      });
+    } catch (error) {
+      return res.json({ statusCode: 500, message: error.message });
+    }
   }
 };
 

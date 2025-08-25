@@ -16,6 +16,18 @@ const orderController = {
             console.log({ error });
             return res.json({ statusCode: 500, message: error.message });
         }
+    },
+    getOrders: async (req, res) => {
+        const userId = req.user.id;
+        const { status } = req.body;
+        const db = req.db;
+        try {
+            const [totalOrders] = await db.execute('Call sp_getOrders(?,?)', [userId, status]);
+
+            return res.json({ statusCode: 200, message: 'Success', response: totalOrders[0] ?? [] });
+        } catch (error) {
+            return res.json({ statusCode: 500, message: error.message, response: [] });
+        }
     }
 };
 

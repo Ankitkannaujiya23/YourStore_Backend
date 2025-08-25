@@ -6,16 +6,6 @@
     "auditLog": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\.c0865a4baf76602fcbcd8ace776eb4d378d5a4b5-audit.json",
     "files": [
         {
-            "date": 1754418898591,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-06-app.log",
-            "hash": "778a29282272b5a47a31662c0d9ea7e305e82433b160e639cc586b21cc5b7278"
-        },
-        {
-            "date": 1754936233293,
-            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-11-app.log",
-            "hash": "0680d0c076b0df5f02742a1b84cdee8810cde53bd0aefa12728bfa1cc947c646"
-        },
-        {
             "date": 1755022055122,
             "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-12-app.log",
             "hash": "4321efdfa49677bc57c9f2b06fdb24d9618ddebd0cdfd193cd74aa59666520e2"
@@ -44,6 +34,26 @@
             "date": 1755515944174,
             "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-18-app.log",
             "hash": "af250a6902316a228f6cc77e740fe3de6973739dda88ad2296715c3661ad298e"
+        },
+        {
+            "date": 1755621082792,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-19-app.log",
+            "hash": "b1342343c2b6c4b41a58f023b1c22376ef624dba9415d833f7e766b5842e4f76"
+        },
+        {
+            "date": 1756011874205,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-24-app.log",
+            "hash": "1dff14d19d4e67d54ce99a0a69e18abc8a48ee06414caa509bd5ffd95a1008fd"
+        },
+        {
+            "date": 1756146234451,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-25-app.log",
+            "hash": "d797323dc380ce9c630e36db395a62ad3e671e902f6c704dd84194a7dc0c8dbf"
+        },
+        {
+            "date": 1756147421482,
+            "name": "C:\\Users\\Ankit Kannaujiya\\OneDrive\\Desktop\\Your-Store\\Your-Store\\server\\logs\\2025-08-26-app.log",
+            "hash": "4191b61f78b74a751ae44050a4efd9abb9d0f2816a8e01f516fc6fa42514a852"
         }
     ],
     "hashType": "sha256"

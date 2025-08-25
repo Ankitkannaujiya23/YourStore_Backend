@@ -22,6 +22,7 @@ router.post("/user/signup", signupValidation, userController.signup);
 router.post("/user/login", loginValidation, userController.login);
 router.post('/user/forgotPassword', userController.forgotPassword);
 router.post('/user/updatePassword/:token', userController.updatePassword);
+router.get('/user/getuserdetail', jwtAuthentication, userController.getUserDetail);
 
 //products
 router.get("/products", productController.getAllProducts);
@@ -80,5 +81,6 @@ router.get('/address/getaddresslist', jwtAuthentication, addressController.getAd
 
 //order
 router.post('/order/create', jwtAuthentication, orderController.createOrder);
+router.post('/orders/getorders', jwtAuthentication, orderController.getOrders);
 
 export default router;
