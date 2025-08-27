@@ -39,7 +39,6 @@ const userController = {
       return res.json({ statusCode: 500, message: "Server error!!" });
     }
   },
-
   login: async (req, res) => {
     const { email, password } = req.body;
     const err = validationResult(req);
@@ -162,6 +161,18 @@ const userController = {
         response: userDetail[0]
       });
     } catch (error) {
+      return res.json({ statusCode: 500, message: error.message });
+    }
+  },
+  updateUserDetail: async (req, res) => {
+    try {
+      const userId = req.user.id;
+      const { email, mobileno, name } = req.body;
+      const db = req.db;
+      const [result] = await db.execute('Call sp_updateUserDetail(?,?,?,?)', [userId, email, mobileno, name]);
+      return res.json({ statusCode: 200, message: "Details Updated Successfully!", response: result });
+    } catch (error) {
+      console.log({ error });
       return res.json({ statusCode: 500, message: error.message });
     }
   }
