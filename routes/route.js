@@ -23,6 +23,7 @@ router.post("/user/login", loginValidation, userController.login);
 router.post('/user/forgotPassword', userController.forgotPassword);
 router.post('/user/updatePassword/:token', userController.updatePassword);
 router.get('/user/getuserdetail', jwtAuthentication, userController.getUserDetail);
+router.post('/user/updateuser', jwtAuthentication, userController.updateUserDetail);
 
 //products
 router.get("/products", productController.getAllProducts);

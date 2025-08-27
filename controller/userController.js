@@ -167,9 +167,9 @@ const userController = {
   updateUserDetail: async (req, res) => {
     try {
       const userId = req.user.id;
-      const { email, mobileno, name } = req.body;
+      const { email, mobile, name } = req.body;
       const db = req.db;
-      const [result] = await db.execute('Call sp_updateUserDetail(?,?,?,?)', [userId, email, mobileno, name]);
+      const [result] = await db.execute('Call sp_updateUserDetail(?,?,?,?)', [userId, name, mobile, email]);
       return res.json({ statusCode: 200, message: "Details Updated Successfully!", response: result });
     } catch (error) {
       console.log({ error });
