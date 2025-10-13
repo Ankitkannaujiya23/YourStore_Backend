@@ -8,7 +8,9 @@ const jwtAuthentication = (req, res, next) => {
     "/api/user/login",
     "/api/user/signup",
     "/api/user/forgotPassword",
-    "/api/user/resetPassword"
+    "/api/user/resetPassword",
+    "/api/products",
+    "/api/product/"
   ];
 
   if (req.path === '/' || (openRoutes.some(route => route !== '/' && req.path.startsWith(route)))) {
