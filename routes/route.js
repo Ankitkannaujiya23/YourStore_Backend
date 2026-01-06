@@ -73,6 +73,7 @@ router.post('/cart/add', jwtAuthentication, cartController.addToCart);
 router.put('/cart/update', jwtAuthentication, cartController.updateCart);
 router.post('/cart/sync', jwtAuthentication, cartController.syncCart);
 router.delete('/cart/remove', jwtAuthentication, cartController.removeFromCart);
+router.get('/cart/fetchcart', jwtAuthentication, cartController.fetchCart);
 
 //address
 router.post('/address/add', addressValidation, jwtAuthentication, addressController.addAddress);

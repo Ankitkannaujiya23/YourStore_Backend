@@ -53,6 +53,18 @@ const cartController = {
             console.log({ error });
             return res.json({ statusCode: 500, message: error.message });
         }
+    },
+    fetchCart: async (req, res) => {
+        const userId = req.user.id;
+        const db = req.db;
+        try {
+            const [cartItems] = await db.execute('Call sp_fetchCart(?)', [userId]);
+            const productList = cartItems[0]?.map((item) => { return { ...item, image: JSON.parse(item.image) } })
+            return res.json({ statusCode: 200, message: "Cart fetched successfully", response: productList });
+        } catch (error) {
+            console.log({ error });
+            return res.json({ statusCode: 500, message: error.message });
+        }
     }
 
 };
