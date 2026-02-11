@@ -152,7 +152,7 @@ const userController = {
     try {
       const userId = req.user.id;
       const db = req.db;
-      const [rows] = await db.execute('Call sp_getUserDetail(?)', [userId]);
+      const [rows] = await db.execute('select * from users where id = ?', [userId]);
       const userDetail = rows[0] || null;
 
       return res.json({

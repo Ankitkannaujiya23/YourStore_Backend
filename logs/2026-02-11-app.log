@@ -1,0 +1,157 @@
+2026-02-11T16:50:01.175Z [INFO]:::1 - - [11/Feb/2026:16:50:01 +0000] "GET /api/products HTTP/1.1" 200 2073 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T16:50:01.184Z [INFO]:API Request 
+2026-02-11T16:51:04.250Z [INFO]:::1 - - [11/Feb/2026:16:51:04 +0000] "GET /api/product/6 HTTP/1.1" 200 705 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T16:51:04.252Z [INFO]:API Request 
+2026-02-11T17:23:10.600Z [INFO]:::1 - - [11/Feb/2026:17:23:10 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:23:10.610Z [INFO]:API Request 
+2026-02-11T17:23:10.680Z [INFO]:::1 - - [11/Feb/2026:17:23:10 +0000] "POST /api/cart/sync HTTP/1.1" 200 78 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:23:10.820Z [INFO]:API Request 
+2026-02-11T17:23:11.193Z [INFO]:::1 - - [11/Feb/2026:17:23:11 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:23:11.255Z [INFO]:API Request 
+2026-02-11T17:23:18.478Z [INFO]:::1 - - [11/Feb/2026:17:23:18 +0000] "GET /api/product/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:23:18.479Z [INFO]:API Request 
+2026-02-11T17:23:20.348Z [INFO]:::1 - - [11/Feb/2026:17:23:20 +0000] "POST /api/cart/add HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:23:20.395Z [INFO]:API Request 
+2026-02-11T17:23:37.461Z [INFO]:::1 - - [11/Feb/2026:17:23:37 +0000] "GET /api/cart/fetchcart HTTP/1.1" 200 79 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:23:37.526Z [INFO]:API Request 
+2026-02-11T17:23:37.579Z [INFO]:::1 - - [11/Feb/2026:17:23:37 +0000] "GET /api/address/getaddresslist HTTP/1.1" 200 668 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:23:37.694Z [INFO]:API Request 
+2026-02-11T17:24:23.684Z [INFO]:::1 - - [11/Feb/2026:17:24:23 +0000] "POST /api/address/add HTTP/1.1" 200 365 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:24:23.729Z [INFO]:API Request 
+2026-02-11T17:25:51.224Z [INFO]:::1 - - [11/Feb/2026:17:25:51 +0000] "GET /api/address/getaddresslist HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:26:01.765Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:17:26:01 +0000] "GET /api/address/getaddresslist HTTP/1.1" 200 965 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:26:01.769Z [INFO]:API Request 
+2026-02-11T17:52:56.071Z [INFO]:::1 - - [11/Feb/2026:17:52:56 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:52:56.076Z [INFO]:API Request 
+2026-02-11T17:52:57.702Z [INFO]:::1 - - [11/Feb/2026:17:52:57 +0000] "GET /api/product/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:52:57.703Z [INFO]:API Request 
+2026-02-11T17:53:21.382Z [INFO]:::1 - - [11/Feb/2026:17:53:21 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:21.383Z [INFO]:API Request 
+2026-02-11T17:53:21.414Z [INFO]:::1 - - [11/Feb/2026:17:53:21 +0000] "POST /api/cart/sync HTTP/1.1" 200 69 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:21.416Z [INFO]:API Request 
+2026-02-11T17:53:21.464Z [INFO]:::1 - - [11/Feb/2026:17:53:21 +0000] "GET /api/address/getaddresslist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:21.477Z [INFO]:API Request 
+2026-02-11T17:53:21.574Z [INFO]:::1 - - [11/Feb/2026:17:53:21 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:21.577Z [INFO]:API Request 
+2026-02-11T17:53:29.450Z [INFO]:::1 - - [11/Feb/2026:17:53:29 +0000] "GET /api/product/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:29.450Z [INFO]:API Request 
+2026-02-11T17:53:31.015Z [INFO]:::1 - - [11/Feb/2026:17:53:31 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:31.015Z [INFO]:API Request 
+2026-02-11T17:53:42.089Z [INFO]:::1 - - [11/Feb/2026:17:53:42 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:42.090Z [INFO]:API Request 
+2026-02-11T17:53:48.727Z [INFO]:::1 - - [11/Feb/2026:17:53:48 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:53:48.728Z [INFO]:API Request 
+2026-02-11T17:55:01.205Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:17:55:01 +0000] "PUT /api/cart/update HTTP/1.1" 200 386 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:55:01.212Z [INFO]:API Request 
+2026-02-11T17:55:01.224Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:17:55:01 +0000] "GET /api/product/4 HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:55:01.227Z [INFO]:API Request 
+2026-02-11T17:55:01.230Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:17:55:01 +0000] "GET /api/product/5 HTTP/1.1" 200 480 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:55:01.231Z [INFO]:API Request 
+2026-02-11T17:55:07.538Z [INFO]:::1 - - [11/Feb/2026:17:55:07 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:55:07.541Z [INFO]:API Request 
+2026-02-11T17:55:24.926Z [INFO]:::1 - - [11/Feb/2026:17:55:24 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:55:24.927Z [INFO]:API Request 
+2026-02-11T17:55:46.016Z [INFO]:::1 - - [11/Feb/2026:17:55:46 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:55:46.017Z [INFO]:API Request 
+2026-02-11T17:55:46.049Z [INFO]:::1 - - [11/Feb/2026:17:55:46 +0000] "POST /api/cart/sync HTTP/1.1" 200 622 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:55:46.051Z [INFO]:API Request 
+2026-02-11T17:56:06.996Z [INFO]:::1 - - [11/Feb/2026:17:56:06 +0000] "GET /api/product/4 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:56:06.998Z [INFO]:API Request 
+2026-02-11T17:56:24.766Z [INFO]:::1 - - [11/Feb/2026:17:56:24 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:56:24.768Z [INFO]:API Request 
+2026-02-11T17:56:24.791Z [INFO]:::1 - - [11/Feb/2026:17:56:24 +0000] "POST /api/cart/sync HTTP/1.1" 200 622 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:56:24.793Z [INFO]:API Request 
+2026-02-11T17:56:57.468Z [INFO]:::1 - - [11/Feb/2026:17:56:57 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:56:57.472Z [INFO]:API Request 
+2026-02-11T17:57:01.588Z [INFO]:::1 - - [11/Feb/2026:17:57:01 +0000] "GET /api/product/5 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:57:01.593Z [INFO]:API Request 
+2026-02-11T17:57:50.907Z [INFO]:::1 - - [11/Feb/2026:17:57:50 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:57:50.909Z [INFO]:API Request 
+2026-02-11T17:57:50.950Z [INFO]:::1 - - [11/Feb/2026:17:57:50 +0000] "POST /api/cart/sync HTTP/1.1" 200 622 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:57:50.951Z [INFO]:API Request 
+2026-02-11T17:57:51.032Z [INFO]:::1 - - [11/Feb/2026:17:57:51 +0000] "GET /api/address/getaddresslist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:57:51.035Z [INFO]:API Request 
+2026-02-11T17:57:51.188Z [INFO]:::1 - - [11/Feb/2026:17:57:51 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T17:57:51.192Z [INFO]:API Request 
+2026-02-11T18:01:30.182Z [INFO]:::1 - - [11/Feb/2026:18:01:30 +0000] "GET /api/product/5 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:01:30.187Z [INFO]:API Request 
+2026-02-11T18:01:32.449Z [INFO]:::1 - - [11/Feb/2026:18:01:32 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:01:32.456Z [INFO]:API Request 
+2026-02-11T18:07:13.117Z [INFO]:::1 - - [11/Feb/2026:18:07:13 +0000] "GET /api/product/5 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:13.121Z [INFO]:API Request 
+2026-02-11T18:07:15.497Z [INFO]:::1 - - [11/Feb/2026:18:07:15 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:15.498Z [INFO]:API Request 
+2026-02-11T18:07:26.605Z [INFO]:::1 - - [11/Feb/2026:18:07:26 +0000] "GET /api/product/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:26.618Z [INFO]:API Request 
+2026-02-11T18:07:28.516Z [INFO]:::1 - - [11/Feb/2026:18:07:28 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:28.517Z [INFO]:API Request 
+2026-02-11T18:07:32.189Z [INFO]:::1 - - [11/Feb/2026:18:07:32 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:32.190Z [INFO]:API Request 
+2026-02-11T18:07:33.443Z [INFO]:::1 - - [11/Feb/2026:18:07:33 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:33.445Z [INFO]:API Request 
+2026-02-11T18:07:43.777Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:18:07:43 +0000] "DELETE /api/cart/remove HTTP/1.1" 200 643 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:43.779Z [INFO]:API Request 
+2026-02-11T18:07:48.169Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:18:07:48 +0000] "DELETE /api/cart/remove HTTP/1.1" 200 643 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:07:48.171Z [INFO]:API Request 
+2026-02-11T18:08:01.090Z [INFO]:::1 - - [11/Feb/2026:18:08:01 +0000] "PUT /api/cart/update HTTP/1.1" 200 637 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:08:01.096Z [INFO]:API Request 
+2026-02-11T18:08:22.189Z [INFO]:::1 - - [11/Feb/2026:18:08:22 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:08:22.190Z [INFO]:API Request 
+2026-02-11T18:08:22.225Z [INFO]:::1 - - [11/Feb/2026:18:08:22 +0000] "POST /api/cart/sync HTTP/1.1" 200 622 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:08:22.226Z [INFO]:API Request 
+2026-02-11T18:08:22.281Z [INFO]:::1 - - [11/Feb/2026:18:08:22 +0000] "GET /api/address/getaddresslist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:08:22.283Z [INFO]:API Request 
+2026-02-11T18:14:07.549Z [INFO]:::1 - - [11/Feb/2026:18:14:07 +0000] "PUT /api/cart/update HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:14:07.558Z [INFO]:::1 - - [11/Feb/2026:18:14:07 +0000] "GET /api/products HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:14:18.141Z [INFO]:::1 - - [11/Feb/2026:18:14:18 +0000] "GET /api/products HTTP/1.1" 200 2073 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:14:18.170Z [INFO]:API Request 
+2026-02-11T18:14:21.054Z [INFO]:::1 - - [11/Feb/2026:18:14:21 +0000] "GET /api/product/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:14:21.072Z [INFO]:API Request 
+2026-02-11T18:21:57.392Z [INFO]:::1 - - [11/Feb/2026:18:21:57 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:21:57.395Z [INFO]:API Request 
+2026-02-11T18:21:57.425Z [INFO]:::1 - - [11/Feb/2026:18:21:57 +0000] "POST /api/cart/sync HTTP/1.1" 200 848 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:21:57.431Z [INFO]:API Request 
+2026-02-11T18:21:57.533Z [INFO]:::1 - - [11/Feb/2026:18:21:57 +0000] "GET /api/address/getaddresslist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:21:57.535Z [INFO]:API Request 
+2026-02-11T18:21:57.654Z [INFO]:::1 - - [11/Feb/2026:18:21:57 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:21:57.679Z [INFO]:API Request 
+2026-02-11T18:22:10.877Z [INFO]:::1 - - [11/Feb/2026:18:22:10 +0000] "GET /api/product/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:22:10.879Z [INFO]:API Request 
+2026-02-11T18:22:12.348Z [INFO]:::1 - - [11/Feb/2026:18:22:12 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:22:12.352Z [INFO]:API Request 
+2026-02-11T18:22:26.368Z [INFO]:::1 - - [11/Feb/2026:18:22:26 +0000] "DELETE /api/cart/remove HTTP/1.1" 200 325 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:22:26.382Z [INFO]:API Request 
+2026-02-11T18:22:32.886Z [INFO]:::1 - - [11/Feb/2026:18:22:32 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:22:32.887Z [INFO]:API Request 
+2026-02-11T18:22:39.715Z [INFO]:::1 - - [11/Feb/2026:18:22:39 +0000] "DELETE /api/cart/remove HTTP/1.1" 200 325 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:22:39.718Z [INFO]:API Request 
+2026-02-11T18:22:51.348Z [INFO]:::1 - - [11/Feb/2026:18:22:51 +0000] "GET /api/product/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:22:51.353Z [INFO]:API Request 
+2026-02-11T18:22:59.449Z [INFO]:::1 - - [11/Feb/2026:18:22:59 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:22:59.451Z [INFO]:API Request 
+2026-02-11T18:23:01.725Z [INFO]:::1 - - [11/Feb/2026:18:23:01 +0000] "GET /api/product/5 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:01.729Z [INFO]:API Request 
+2026-02-11T18:23:04.758Z [INFO]:::1 - - [11/Feb/2026:18:23:04 +0000] "POST /api/cart/add HTTP/1.1" 200 63 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:04.761Z [INFO]:API Request 
+2026-02-11T18:23:20.804Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:18:23:20 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:20.831Z [INFO]:API Request 
+2026-02-11T18:23:22.541Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:18:23:22 +0000] "GET /api/product/5 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:22.573Z [INFO]:API Request 
+2026-02-11T18:23:34.290Z [INFO]:::1 - - [11/Feb/2026:18:23:34 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:34.305Z [INFO]:API Request 
+2026-02-11T18:23:55.759Z [INFO]:::1 - - [11/Feb/2026:18:23:55 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:55.761Z [INFO]:API Request 
+2026-02-11T18:23:55.802Z [INFO]:::1 - - [11/Feb/2026:18:23:55 +0000] "POST /api/cart/sync HTTP/1.1" 200 504 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:55.945Z [INFO]:API Request 
+2026-02-11T18:23:56.133Z [INFO]:::1 - - [11/Feb/2026:18:23:56 +0000] "GET /api/address/getaddresslist HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:56.155Z [INFO]:API Request 
+2026-02-11T18:23:56.173Z [INFO]:::1 - - [11/Feb/2026:18:23:56 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:23:56.180Z [INFO]:API Request 
+2026-02-11T18:26:07.199Z [INFO]:::1 - - [11/Feb/2026:18:26:07 +0000] "POST /api/user/login HTTP/1.1" 200 300 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:26:07.206Z [INFO]:API Request 
+2026-02-11T18:26:07.257Z [INFO]:::1 - - [11/Feb/2026:18:26:07 +0000] "POST /api/cart/sync HTTP/1.1" 200 504 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:26:07.261Z [INFO]:API Request 
+2026-02-11T18:26:07.387Z [INFO]:::1 - - [11/Feb/2026:18:26:07 +0000] "GET /api/products HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:26:07.393Z [INFO]:API Request 
+2026-02-11T18:26:31.187Z [INFO]:::ffff:127.0.0.1 - - [11/Feb/2026:18:26:31 +0000] "PUT /api/cart/update HTTP/1.1" 200 107 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" 
+2026-02-11T18:26:31.190Z [INFO]:API Request 
