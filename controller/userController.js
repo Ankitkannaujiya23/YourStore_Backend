@@ -158,7 +158,7 @@ const userController = {
       return res.json({
         statusCode: 200,
         message: "User details fetched successfully!",
-        response: userDetail[0]
+        response: userDetail
       });
     } catch (error) {
       return res.json({ statusCode: 500, message: error.message });
